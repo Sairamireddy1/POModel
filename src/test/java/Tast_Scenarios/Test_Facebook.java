@@ -76,9 +76,7 @@ public class Test_Facebook {
 			driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 			
 			driver.get("https://www.google.com/");
-			Assert.assertEquals(driver.getTitle(),"Google");
-			
-			
+			Assert.assertEquals(driver.getTitle(),"Google");	
 		}
 
 		@Test(priority=0)
